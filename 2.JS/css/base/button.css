@@ -1,0 +1,48 @@
+.button {
+    height: 40px;
+    width: 100px;
+    display: inline-block;
+    border-radius: 4px;
+    color: #fff;
+    padding-left: 24px;
+    padding-right: 24px;
+    text-align: center;
+    background-color: #019160;
+    line-height: 40px;
+    border: 0;
+}
+
+.button .btn-default {
+    height: 40px;
+    display: inline-block;
+    border-radius: 4px;
+    color: #fff;
+    padding-left: 24px;
+    padding-right: 24px;
+    text-align: center;
+    background-color: #019160;
+    line-height: 40px;
+    width: 100px;
+}
+
+.button:hover {
+    background-color: #2FBE8E;
+}
+
+button:active {
+    background-color: #01b075;
+}
+
+.button.cancel {
+    background-color: #ccc;
+}
+
+.button.save {
+    width: 100px;
+    background-image: url("../../content/icon/save.png");
+    background-repeat: no-repeat;
+    background-size: 16px 16px;
+    background-position-x: 20px;
+    background-position-y: center;
+    font-weight: lighter;
+}

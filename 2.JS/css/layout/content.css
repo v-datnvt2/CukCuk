@@ -1,0 +1,334 @@
+@import url("../../css/base/button.css");
+.content {
+    position: absolute;
+    top: 48px;
+    left: 225px;
+    display: block;
+}
+
+.content .content-header {
+    position: relative;
+    height: 60px;
+    width: calc(100vw - 225px);
+    /* background-color: #ccc; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.content .content-header .title {
+    padding-top: 20px;
+    font-size: 20px;
+    width: auto;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+
+/*  */
+
+.button {
+    height: 40px;
+    display: inline-block;
+    border-radius: 4px;
+    color: #fff;
+    padding-left: 24px;
+    padding-right: 24px;
+    text-align: center;
+    background-color: #019160;
+    line-height: 40px;
+}
+
+.button:hover {
+    background-color: #2fbebe;
+}
+
+button:active {
+    background-color: #01b075;
+}
+
+.content-header .button.add-employee {
+    height: 40px;
+    width: auto;
+    padding-left: 40px;
+    margin-top: 12px !important;
+    margin-right: 10px !important;
+    background-image: url("../../content/icon/add.png");
+    background-repeat: no-repeat;
+    background-position: 16px center;
+}
+
+.toolbar {
+    height: 48px;
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+}
+
+.toolbar .btn-refresh {
+    margin-right: 10px;
+    height: 40px;
+    width: 50px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    background-image: url("../../content/icon/refresh.png");
+    background-size: 20px 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+}
+
+.filter {
+    height: 48px;
+    width: auto;
+    /* background-color: #f0f; */
+    display: flex;
+    padding-top: 4px;
+}
+
+.filter .searchbox {
+    height: 40px;
+    width: 300px;
+    display: flex;
+    border: 1px solid #bbb;
+    border-radius: 4px;
+    margin-left: 13px;
+    box-sizing: border-box;
+}
+
+.searchbox .search-icon {
+    height: 40px;
+    width: 40px;
+    background-image: url("../../content/icon/search.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-x: 16px;
+    background-position-y: center;
+}
+
+.searchbox input {
+    line-height: 40px;
+    width: 250px;
+    border: none;
+    outline: none;
+    padding: 0;
+}
+
+.dropdown {
+    display: flex;
+    width: 150px;
+    height: 40px;
+    border: 1px solid #D2D2D2;
+    border-radius: 4px;
+}
+
+
+/* .dropdown {
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 200px;
+    height: 40px;
+    border: 1px solid #D2D2D2;
+    display: flex;
+    box-sizing: border-box;
+} */
+
+.select-division {
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 150px;
+    height: 40px;
+    border: 1px solid #D2D2D2;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.select-division .divtext {
+    height: 40px;
+    line-height: 40px;
+    width: 100px;
+    font-size: 13px;
+    padding-left: 16px;
+}
+
+.dropdown .arrow {
+    height: 40px;
+    width: 40px;
+    background-image: url("../../content/icon/downArrow.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 16px 16px;
+}
+
+.dropdown .select-position {
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 150px;
+    height: 40px;
+    border: 1px solid #D2D2D2;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.select-position .divtext {
+    height: 40px;
+    line-height: 40px;
+    width: 100px;
+    font-size: 13px;
+    padding-left: 16px;
+}
+
+.content .table-wrapper {
+    height: calc(100vh - 217px);
+    width: calc(100vw - 255px);
+    margin-left: 13px;
+    /* display: block; */
+    overflow: scroll;
+}
+
+.table-wrapper .table-employee {
+    width: 100%;
+    border-collapse: collapse;
+    line-height: 40px;
+}
+
+thead {
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+}
+
+.table-employee th {
+    font-size: 13px;
+    padding-left: 10px;
+}
+
+th tr {
+    width: 100vh;
+    background-color: #fff;
+}
+
+tr {
+    width: 100%;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
+td {
+    padding-left: 10px;
+}
+
+.content .page-navigator {
+    height: 56px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #ccc;
+}
+
+.content .page-navigator .number-total-info {
+    margin-left: 32px;
+    height: 100%;
+    width: 200px;
+    display: flex;
+}
+
+.number-total-info p {
+    height: 100%;
+    width: auto;
+    line-height: 56px;
+    padding: 0;
+    margin: 0;
+}
+
+.number-total-info .number-total {
+    height: 100%;
+    width: auto;
+    font-weight: bold;
+    line-height: 56px;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+.content .page-navigator .navigation-button {
+    height: 100%;
+    justify-content: center;
+    display: flex;
+}
+
+.navigation-button .button {
+    height: 32px;
+    width: 32px;
+    padding: 0;
+    margin-top: 7px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #ccc;
+    background-position-x: center;
+    background-position-y: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 4px;
+}
+
+.navigation-button .button:hover {
+    background-color: #fff;
+}
+
+.navigation-button .button:active {
+    background-color: #019160;
+}
+
+.button.first-page {
+    background-image: url("../../content/icon/btn-firstpage.svg");
+}
+
+.button.previous-page {
+    background-image: url("../../content/icon/btn-prev-page.svg");
+}
+
+.button.next-page {
+    background-image: url("../../content/icon/btn-next-page.svg");
+}
+
+.button.last-page {
+    background-image: url("../../content/icon/btn-lastpage.svg");
+}
+
+.button.page-number {
+    line-height: 32px;
+    color: black;
+    background-color: #ccc;
+    border-radius: 50%;
+}
+
+.button.page-number:active {
+    background-color: #01b075;
+}
+
+.page-navigator .per-page {
+    margin-right: 32px;
+    line-height: 56px;
+}
+
+
+/* 
+.searchbox input {
+    padding-left: 40px;
+    border: 1px solid;
+}
+
+.searchfield {
+    background-image: url("../../content/icon/search.png");
+    background-repeat: no-repeat;
+    background-size: 16px 16px;
+    background-position: 16px center;
+    border-radius: 4px;
+    border: 1px solid;
+}
+
+input:focus {
+    border-color: #01b075;
+} */
