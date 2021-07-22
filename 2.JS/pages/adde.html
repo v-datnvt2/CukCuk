@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="header">
+        <div class="title">THÔNG TIN NHÂN VIÊN</div>
+        <div class="btn-close"></div>
+    </div>
+    <div class="employee-info">
+        <div class="avatar">
+            <div class="avatar-image"></div>
+            <p>(Vui lòng chọn ảnh có định</p>
+            <p>dạng</p>
+            <p>.jpg, .jpeg, .png, .gif.)</p>
+            <input type="file" name="avatar-file" id="avatar-file" />
+        </div>
+        <div class="detail">
+            <div class="general-detail">
+                <div class="title">A. THÔNG TIN CHUNG</div>
+                <div class="hs"></div>
+                <div class="grid">
+                    <div class="grid-row">
+                        <div class="grid-col">
+                            <label class="col-label">Mã nhân viên(<span class="required">*</span>)</label>
+                            <input id="EmployeeCode" class="field-input " tabindex="1" value="NV956" required></input>
+                        </div>
+                        <div class="grid-col">
+                            <label class="col-label">Họ và tên(<span class="required">*</span>)</label>
+                            <input id="FullName" class="field-input " tabindex="2" value="Nguyen Huy Hung" required></input>
+                        </div>
+                    </div>
+                    <div class="grid-row">
+                        <div class="grid-col">
+                            <label class="col-label">Ngày sinh</label>
+                            <input id="DateOfBirth" type="date" class="field-input" tabindex="3" value="1999-10-17"></input>
+                        </div>
+                        <div class="grid-col">
+                            <label class="col-label">Giới tính</label>
+                            <div class="dropdown select-gender">
+                                <div class="choice">
+                                    <div id="GenderName" class="divtext" tabindex="4"></div>
+                                    <div class="clearchoice icon-clear"></div>
+                                    <div class="arrow-zone">
+                                        <div class="arrow"></div>
+                                    </div>
+                                </div>
+                                <div class="itemwrapper gender" value='2'>
+                                    <div class="item" value='1'>Nam</div>
+                                    <div class="item" value='0'>Nữ</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid-row">
+                        <div class="grid-col">
+                            <label class="col-label">Số CMTND/ Căn cước (<span class="required">*</span>)
+                                        <input id="IdentityNumber" class="field-input" tabindex='5' required
+                                            value="0300999901234"></input>
+                                </div>
+                                <div class="grid-col">
+                                    <label class="col-label">Ngày cấp</label>
+                            <input id="IdentityDate" type="date" class="field-input" tabindex="6" value="2021-01-20"></input>
+                        </div>
+                    </div>
+                    <div class="grid-row">
+                        <div class="grid-col">
+                            <label class="col-label">Nơi cấp</label>
+                            <input id="IdentityPlace" class="field-input" tabindex="7" value="HD"></input>
+                        </div>
+                    </div>
+                    <div class="grid-row">
+                        <div class="grid-col">
+                            <label class="col-label">Email (<span class="required">*</span>)</label>
+                            <input id="Email" class="field-input" tabindex="8" required value="hungahihi@gmail.com"></input>
+                        </div>
+                        <div class="grid-col">
+                            <label class="col-label">Số điện thoại (<span class="required">*</span>)</label>
+                            <input id="PhoneNumber" class="field-input " tabindex="9" required value="0961169169"></input>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="job-detail">
+                <div class="title">B. THÔNG TIN CÔNG VIỆC</div>
+                <div class="hs"></div>
+                <div class="grid">
+                    <div class="grid-row">
+                        <div class="grid-col">
+                            <label class="col-label">Vị trí</label>
+                            <div class="dropdown position">
+                                <div class="choice">
+                                    <div id="PositionName" class="divtext" tabindex="10"></div>
+                                    <div class="clearchoice icon-clear"></div>
+                                    <div class="arrow-zone">
+                                        <div class="arrow"></div>
+                                    </div>
+                                </div>
+                                <div class="itemwrapper">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid-col">
+                            <label class="col-label">Phòng ban</label>
+                            <div class="dropdown division">
+                                <div class="choice">
+                                    <div id="DepartmentName" class="divtext" tabindex="11"> </div>
+                                    <div class="clearchoice icon-clear"></div>
+                                    <div class="arrow-zone">
+                                        <div class="arrow"></div>
+                                    </div>
+                                </div>
+                                <div class="itemwrapper">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid-row">
+                        <div class="grid-col">
+                            <label class="col-label">Mã số thuế cá nhân </label>
+                            <input id="PersonalTaxCode" class="field-input" tabindex="12" value="0123943548"></input>
+                        </div>
+                        <div class="grid-col">
+                            <label class="col-label">Mức lương cơ bản</label>
+                            <div class="money-input">
+                                <input id="Salary" class="field-input money" maxlength="12" tabindex="13" value="1000000"></input>
+                                <div class="currency">(VND) </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid-row">
+                        <div class="grid-col">
+                            <label class="col-label">Ngày gia nhập công ty</label>
+                            <input id="JoinDate" type="date" class="field-input" tabindex="14" value="2020-07-12"></input>
+                        </div>
+                        <div class="grid-col">
+                            <label class="col-label">Tình trạng công việc</label>
+                            <div class="dropdown job-status">
+                                <div class="choice">
+                                    <div id="WorkStatus" class="divtext" tabindex="15" id="job-status">Đang làm việc
+                                    </div>
+                                    <div class="clearchoice icon-clear"></div>
+                                    <div class="arrow-zone">
+                                        <div class="arrow"></div>
+                                    </div>
+                                </div>
+                                <div class="itemwrapper status">
+                                    <div class="item">Chờ phỏng vấn</div>
+                                    <div class="item selected">Đang làm việc</div>
+                                    <div class="item">Đã nghỉ việc</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+
+        <button class="button btn-save icon-save" tabindex="16">Lưu</button>
+        <button class="button btn-cancel" tabindex="17">Hủy</button>
+
+    </div>
+</body>
+
+</html>
