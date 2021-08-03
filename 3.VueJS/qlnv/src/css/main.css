@@ -1,0 +1,31 @@
+@import url("./base/button.css");
+@import url("./base/icon.css");
+@import url("./base/dropdown.css");
+@import url("./base/table.css");
+@import url("./base/field-input.css");
+@import url("./base/clearchoice.css");
+@import url("./base/popup.css");
+@import url("./base/warning-popup.css");
+@import url("./base/toast-message.css");
+@import url("./common/format.css");
+@import url("./layout/header.css");
+@import url("./layout/menu.css");
+@import url("./layout/content.css");
+@import url("./layout/navigation.css");
+body {
+    font-family: ggsans-regular;
+    font-size: 13px;
+    margin: 0;
+    overflow-x: hidden;
+    text-overflow: ellipsis;
+}
+
+@font-face {
+    font-family: ggsans-regular;
+    src: url("../assets/font/GoogleSans-Regular.otf");
+}
+
+@font-face {
+    font-family: ggsans-bold;
+    src: url("../assets/font/GoogleSans-Bold.otf");
+}

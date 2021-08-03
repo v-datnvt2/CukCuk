@@ -1,0 +1,66 @@
+.required {
+    color: rgb(255, 0, 0);
+}
+
+.rot-180 {
+    transform: rotate(180deg);
+    transition: transform 0.8s;
+}
+
+.rot-0 {
+    transform: rotate(0deg);
+    transition: transform 0.8s;
+}
+
+.v-hidden {
+    visibility: hidden;
+}
+
+.v-visible {
+    visibility: visible;
+}
+
+.isshow {
+    display: block;
+}
+
+.isnone {
+    display: none;
+    /* transition: 0.5s; */
+}
+
+.flattern {
+    height: 0px;
+    transition: height 2s;
+}
+
+.disabledbutton {
+    pointer-events: none;
+    opacity: 0.2;
+}
+
+.missing {
+    border: 1px solid red;
+}
+
+.focus {
+    border: 1px solid #019160;
+}
+
+.align-right {
+    text-align: right;
+}
+
+.align-center {
+    text-align: center;
+}
+
+.align-left {
+    text-align: left;
+}
+
+
+/* .checked {
+    background-color: #019160;
+    background-image: url("../../content/icon/tick.png");
+} */

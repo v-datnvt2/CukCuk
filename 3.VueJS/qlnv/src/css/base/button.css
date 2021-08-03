@@ -1,0 +1,62 @@
+button:active {
+    background-color: #01b075;
+}
+
+button:focus {
+    background-color: #01b075;
+}
+
+.button {
+    height: 40px;
+    width: 100px;
+    /* min-width: 100px; */
+    /* display: inline-block; */
+    border-radius: 4px;
+    color: #fff;
+    padding-left: 24px;
+    padding-right: 24px;
+    text-align: center;
+    background-color: #019160;
+    background-repeat: no-repeat;
+    line-height: 40px;
+    border: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.button:hover {
+    background-color: #2FBE8E;
+    cursor: pointer;
+}
+
+.button:focus {
+    background-color: #01b075;
+}
+
+.button.selected {
+    background-color: #019160;
+}
+
+.button.btn-icon {
+    width: fit-content;
+    background-repeat: no-repeat;
+    background-size: 16px 16px;
+    background-position: 16px center;
+    border: 0;
+    padding: 0 16px 0 40px;
+}
+
+.button.danger {
+    background-color: red;
+    color: #fff;
+}
+
+
+/* .button.warning {
+    background-color: red;
+    color: #fff;
+} */
+
+.button.cancel.notify {
+    display: none;
+}

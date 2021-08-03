@@ -1,0 +1,19 @@
+.clearchoice {
+    position: absolute;
+    right: 36px;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    background-color: #E9EBEE;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    visibility: visible;
+    background-size: 12px 12px;
+    background-repeat: no-repeat;
+    background-image: url("../../assets/icon/x.svg");
+}
+
+.clearchoice.icon-clear:hover {
+    cursor: pointer;
+}

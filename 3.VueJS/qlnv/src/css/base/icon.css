@@ -1,0 +1,148 @@
+.icon-add {
+    background-image: url("../../assets/icon/add.png");
+}
+
+.icon-avatar {
+    background-image: url("../../assets/icon/avatar-default.png");
+}
+
+.icon-down {
+    background-image: url("../../assets/icon/btn-down.svg");
+}
+
+.icon-up {
+    background-image: url("../../assets/icon/btn-up.svg");
+}
+
+.icon-prev {
+    background-image: url("../../assets/icon/btn-prev-page.svg");
+}
+
+.icon-next {
+    background-image: url("../../assets/icon/btn-next-page.svg");
+}
+
+.icon-first {
+    background-image: url("../../assets/icon/btn-firstpage.svg");
+}
+
+.icon-last {
+    background-image: url("../../assets/icon/btn-lastpage.svg");
+}
+
+.icon-clear {
+    background-image: url("../../assets/icon/x.svg");
+}
+
+.icon-dashboard {
+    background-image: url("../../assets/icon/dashboard.png");
+}
+
+.icon-buy {
+    background-image: url("../../assets/icon/dashboard.png");
+}
+
+.icon-employee {
+    background-image: url("../../assets/icon/dic-employee.png");
+}
+
+.icon-document {
+    background-image: url("../../assets/icon/document-online.png");
+}
+
+.icon-option {
+    background-image: url("../../assets/icon/option.png");
+}
+
+.icon-radio {
+    background-image: url("../../assets/icon/radio.svg");
+}
+
+.icon-radio-checked {
+    background-image: url("../../assets/icon/radio-checked.png");
+}
+
+.icon-refresh {
+    background-image: url("../../assets/icon/refresh.png");
+}
+
+.icon-report {
+    background-image: url("../../assets/icon/report.png");
+}
+
+.icon-save {
+    background-image: url("../../assets/icon/save.png");
+}
+
+.icon-search {
+    background-image: url("../../assets/icon/search.png");
+}
+
+.icon-setting {
+    background-image: url("../../assets/icon/setting.png");
+}
+
+.icon-close {
+    background-image: url("../../assets/icon/x.svg");
+}
+
+.icon-toggle {
+    background-image: url("../../assets/img/toggle.png");
+}
+
+.icon-notification {
+    background-image: url("../../assets/icon/notification.png");
+}
+
+.icon-white-prev {
+    background-image: url("../../assets/icon/white-prev.png");
+}
+
+.icon-checked {
+    background-color: #019160;
+    background-image: url("../../assets/icon/tick.png");
+}
+
+.icon-warning {
+    background-image: url("../../assets/icon/warning.png");
+}
+
+.icon-notify {
+    background-image: url("../../assets/icon/warning.png");
+}
+
+.icon-danger {
+    background-image: url("../../assets/icon/danger.png");
+}
+
+.icon-toast-danger {
+    background-image: url('../../assets/icon/toast-danger.png');
+}
+
+.icon-toast-warning {
+    background-image: url('../../assets/icon/toast-warning.png');
+}
+
+.icon-toast-check {
+    background-image: url('../../assets/icon/toast-check.png');
+}
+
+.icon-toast-i {
+    background-image: url('../../assets/icon/toast-i.png');
+}
+
+.icon-red-cross {
+    background-image: url('../../assets/icon/red-cross.png');
+}
+
+.icon-orange-cross {
+    background-image: url('../../assets/icon/orange-cross.png');
+}
+
+.icon-green-cross {
+    background-image: url('../../assets/icon/green-cross.png');
+}
+
+.icon-blue-cross {
+    background-image: url('../../assets/icon/blue-cross.png');
+}

@@ -6,3 +6,4 @@ ___
 ## Assignment:
 - [X] UI
 - [X] JS
+- [X] VueJS
