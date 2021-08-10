@@ -7,3 +7,4 @@ ___
 - [X] UI
 - [X] JS
 - [X] VueJS
+- [X] API
