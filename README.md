@@ -8,3 +8,4 @@ ___
 - [X] JS
 - [X] VueJS
 - [X] API
+- [X] Restfull API

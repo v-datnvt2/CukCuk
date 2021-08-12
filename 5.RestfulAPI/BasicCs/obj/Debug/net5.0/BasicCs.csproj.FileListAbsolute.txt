@@ -1,0 +1,15 @@
+C:\Users\hunga\source\repos\MISA.CukCuk\BasicCs\obj\Debug\net5.0\BasicCs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hunga\source\repos\MISA.CukCuk\BasicCs\obj\Debug\net5.0\BasicCs.AssemblyInfoInputs.cache
+C:\Users\hunga\source\repos\MISA.CukCuk\BasicCs\obj\Debug\net5.0\BasicCs.AssemblyInfo.cs
+C:\Users\hunga\source\repos\MISA.CukCuk\BasicCs\obj\Debug\net5.0\BasicCs.csproj.CoreCompileInputs.cache
+C:\Users\hunga\source\repos\MISA.CukCuk\BasicCs\bin\Debug\net5.0\BasicCs.exe
+C:\Users\hunga\source\repos\MISA.CukCuk\BasicCs\bin\Debug\net5.0\BasicCs.deps.json
+C:\Users\hunga\source\repos\MISA.CukCuk\BasicCs\bin\Debug\net5.0\BasicCs.runtimeconfig.json
+C:\Users\hunga\source\repos\MISA.CukCuk\BasicCs\bin\Debug\net5.0\BasicCs.runtimeconfig.dev.json
+C:\Users\hunga\source\repos\MISA.CukCuk\BasicCs\bin\Debug\net5.0\BasicCs.dll
+C:\Users\hunga\source\repos\MISA.CukCuk\BasicCs\bin\Debug\net5.0\ref\BasicCs.dll
+C:\Users\hunga\source\repos\MISA.CukCuk\BasicCs\bin\Debug\net5.0\BasicCs.pdb
+C:\Users\hunga\source\repos\MISA.CukCuk\BasicCs\obj\Debug\net5.0\BasicCs.dll
+C:\Users\hunga\source\repos\MISA.CukCuk\BasicCs\obj\Debug\net5.0\ref\BasicCs.dll
+C:\Users\hunga\source\repos\MISA.CukCuk\BasicCs\obj\Debug\net5.0\BasicCs.pdb
+C:\Users\hunga\source\repos\MISA.CukCuk\BasicCs\obj\Debug\net5.0\BasicCs.genruntimeconfig.cache

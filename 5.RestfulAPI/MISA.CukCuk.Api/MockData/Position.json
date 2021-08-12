@@ -1,0 +1,46 @@
+[
+  {
+    "PositionId": "30d41e52-5e66-72bc-6c1c-b47866e0b131",
+    "PositionCode": "P08",
+    "PositionName": "Giám đốc",
+    "Description": "Ut aut consectetur officia error dolor sequi.",
+    "ParentId": null,
+    "CreatedDate": "1970-01-01T00:00:55",
+    "CreatedBy": "Antoine Banks",
+    "ModifiedDate": null,
+    "ModifiedBy": null
+  },
+  {
+    "PositionId": "548dce5f-5f29-4617-725d-e2ec561b0f41",
+    "PositionCode": "P94",
+    "PositionName": "Nhân viên",
+    "Description": "Beatae modi aliquam aperiam atque soluta. Qui blanditiis amet. Dolorem expedita ut. Perspiciatis eos qui. Eos omnis eum; non aut unde.",
+    "ParentId": null,
+    "CreatedDate": "1970-09-09T01:45:48",
+    "CreatedBy": "Chaya Mccaffrey",
+    "ModifiedDate": null,
+    "ModifiedBy": null
+  },
+  {
+    "PositionId": "589edf01-198a-4ff5-958e-fb52fd75a1d4",
+    "PositionCode": "P07",
+    "PositionName": "Phó phòng",
+    "Description": "Maiores totam facere. Numquam error earum incidunt et laudantium accusamus. Dolor sint perspiciatis. Voluptas repellendus soluta; labore nisi dicta. Quia.",
+    "ParentId": null,
+    "CreatedDate": "1987-02-24T22:38:53",
+    "CreatedBy": "Aundrea Cahill",
+    "ModifiedDate": null,
+    "ModifiedBy": null
+  },
+  {
+    "PositionId": "5bd71cda-209f-2ade-54d1-35c781481818",
+    "PositionCode": "P92",
+    "PositionName": "Trưởng phòng",
+    "Description": "Dolorum animi hic recusandae non laudantium voluptatem. Modi dicta magni et autem magni eum.",
+    "ParentId": null,
+    "CreatedDate": "2006-08-16T13:18:07",
+    "CreatedBy": "Earle Caudill",
+    "ModifiedDate": null,
+    "ModifiedBy": null
+  }
+]
